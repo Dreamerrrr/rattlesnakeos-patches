@@ -14,10 +14,7 @@
  PRODUCT_MODEL := AOSP on walleye
 +
 +GAPPS_VARIANT := pico
-+GAPPS_PRODUCT_PACKAGES += Search
-+GAPPS_PRODUCT_PACKAGES += Wallpapers
-+GAPPS_PRODUCT_PACKAGES += ActionsServices
-+GAPPS_PRODUCT_PACKAGES += PixelIcons
-+GAPPS_PRODUCT_PACKAGES += PixelLauncher
-+GAPPS_FORCE_PIXEL_LAUNCHER := true
++
++GAPPS_PRODUCT_PACKAGES += Search Wallpapers ActionsServices PixelIcons PixelLauncher
++
 +$(call inherit-product, vendor/opengapps/build/opengapps-packages.mk)
